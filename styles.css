@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+  }
+  
+  section {
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    background-color: darkgreen;
+    text-align: center;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+    
+  .vid {
+    width: 639px;
+    height: 360px;
+    border-color: #212529;
+    border-width: 25px;
+    border-style: solid;
+    border-radius: 10px;
+  }
+  
+  .img {
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    border-color: darkgreen;
+    border-width: 10PX;
+    border-style: solid;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+
+  .img-project {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border-color: darkgreen;
+    border-width: 10PX;
+    border-style: solid;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+  
+  .title {
+    margin-top: 25px;
+  }
+  
+  .bio {
+    text-wrap: wrap;
+    width: 500px;
+    padding: 10px 25px;
+    text-align: justify;
+  }
+
+  .bio-project {
+    text-wrap: wrap;
+    width: 300px;
+    padding: 10px 25px;
+    text-align: justify;
+  }
+
+  .icons {
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 10px 10px;
+  }
